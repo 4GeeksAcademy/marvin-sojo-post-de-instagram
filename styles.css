@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.black-background {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-body {
+  background-color: white;
+  height: auto;
+  width: 30rem;
+}
+
+.post-header {
+  padding: 0 0.4rem 0 0.4rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  width: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-html5 {
+  font-size: xx-large;
+}
+
+.header-right {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-ellipsis-vertical {
+  font-size: xx-large;
+}
+
+.post-image-container {
+  width: 100%;
+  display: flex;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-action {
+  padding: 0 0.4rem 0 0.4rem;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-left {
+  width: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: x-large;
+}
+
+.icons-right {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.post-like {
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.post-history {
+  padding: 0 0.5rem 0 0.5rem;
+}
